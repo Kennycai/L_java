@@ -5,7 +5,7 @@
 
 <validators>
 	<field name="email">
-    	<field-validator type="required">
+    	<field-validator type="requiredstring">
         	<param name="trim">true</param>
             <message>必须输入邮箱！</message>
         </field-validator>
