@@ -18,4 +18,16 @@
         </action>
     </package>
 
+	<package name="upload" namespace="" extends="struts-default">
+		<action name="upload" class="com.lr.UpAction">
+			<interceptor-ref name="fileUpload">
+				<param name="allowedTypes">
+					image/jpeg
+				</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"/>
+			<result>/uploadSuccess.jsp</result>
+			<result name="input">/upload.jsp</result>
+		</action>
+	</package>
 </struts>

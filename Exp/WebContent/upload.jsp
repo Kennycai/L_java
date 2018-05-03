@@ -5,11 +5,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index</title>
+<title>upload</title>
 </head>
 <body>
-	<h1>索引</h1>
-	<a href="login.jsp">Exp3</a>
-	<a href="upload.jsp">Exp4</a>
+<form action="upload" enctype="multipart/form-data" method="post">
+	<input type="file" name="image">
+	<br>
+	<input type="file" name="image">
+	<br>
+	<input type="submit" value="提交">
+	<br>
+	<s:fielderror></s:fielderror>
+</form>
 </body>
 </html>
