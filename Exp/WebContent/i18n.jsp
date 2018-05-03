@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index</title>
+<title>国际化</title>
 </head>
 <body>
-	<h1>索引</h1>
-	<a href="login.jsp">Exp3</a><br>
-	<a href="upload.jsp">Exp4_1</a><br>
-	<a href="i18n.jsp">Exp4_2</a><br>
+	<s:form action="reg" method="post">
+		<s:textfield name="email" key="my.email"></s:textfield>
+		<s:submit key="my.button" name=""></s:submit>
+	</s:form>
 </body>
 </html>

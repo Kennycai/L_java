@@ -5,12 +5,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>索引</h1>
-	<a href="login.jsp">Exp3</a><br>
-	<a href="upload.jsp">Exp4_1</a><br>
-	<a href="i18n.jsp">Exp4_2</a><br>
+	<s:text name="my.welcome">
+		<s:param>
+			<s:property value="email"/>
+		</s:param>
+	</s:text>
 </body>
 </html>
